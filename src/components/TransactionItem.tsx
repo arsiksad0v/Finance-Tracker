@@ -1,7 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { deleteTransaction } from '../features/transactionsSlice';
-import { Transaction } from '../features/transactionsSlice';
+import { deleteTransaction, Transaction } from '../features/transactionsSlice';
 
 interface TransactionItemProps {
   transaction: Transaction;
